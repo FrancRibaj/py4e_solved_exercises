@@ -29,26 +29,26 @@ try:
 except:
     print("Invalid input.")
 
-# '''Exercise 2: Write another program that prompts for a list of numbers
-# as above and at the end prints out both the maximum and minimum of
-# the numbers instead of the average.'''
+'''Exercise 2: Write another program that prompts for a list of numbers
+as above and at the end prints out both the maximum and minimum of
+the numbers instead of the average.'''
 
 
-# largest, smallest = None, None
+largest, smallest = None, None
 
-# while True:
-#     prompt = input("Write numbers")
-#     if prompt == 'done':
-#         break
-#     else:
-#         try:
-#             if largest is None or largest < prompt:
-#                 largest = prompt
-#             if smallest is None or smallest > prompt:
-#                 smallest = prompt
-#         except:
-#             print("Invalid input.")
-# print("largest, smallest = ",largest,smallest)
+while True:
+    prompt = input("Write numbers")
+    if prompt == 'done':
+        break
+    else:
+        try:
+            if largest is None or largest < prompt:
+                largest = prompt
+            if smallest is None or smallest > prompt:
+                smallest = prompt
+        except:
+            print("Invalid input.")
+print("largest, smallest = ",largest,smallest)
 
 
 
