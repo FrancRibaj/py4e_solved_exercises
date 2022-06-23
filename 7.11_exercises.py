@@ -10,10 +10,10 @@ BY FRANKENSTEIN.MAIL.UMICH.EDU (CYRUS V2.3.8) WITH LMTPA;
 SAT, 05 JAN 2008 09:14:16 -0500
 You can download the file from www.py4e.com/code3/mbox-short.txt'''
 
-# fhand = open("mbox-short.txt")
-# for lines in fhand:
-#     lines = lines.rstrip().upper()
-#     print(lines)
+fhand = open("mbox-short.txt")
+for lines in fhand:
+    lines = lines.rstrip().upper()
+    print(lines)
 
 '''Exercise 2: Write a program to prompt for a file name, and then read
 through the file and look for lines of the form:
